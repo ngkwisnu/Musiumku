@@ -1,0 +1,42 @@
+.about {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 16rem;
+}
+
+#navbar .nav-link {
+    color: white;
+}
+
+#navbar .nav-link:hover, .nav-link:select {
+    color: #F95428;
+}
+
+@media screen and (max-width: 1000px) {
+    .row {
+        display: block;
+    }
+
+    .gambar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .card {
+        margin: 0 auto;
+        margin-bottom: 30px;
+        width: 19rem;
+    }
+
+    .contact {
+        text-align: center;
+    }
+}
